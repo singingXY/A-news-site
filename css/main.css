@@ -54,11 +54,13 @@ a:hover {
 .banner {
   margin: 10px 0;
 }
-
+.side-bar-card {
+  background: #eee;
+}
 .side-bar-card .card-title,
-.side-bar-card .card-body .list .item {
+.side-bar-card .card-body .list .list-item {
   padding: 10px 15px;
 }
-.side-bar-card .card-body .list .item:hover {
+.side-bar-card .card-body .list .list-item:hover {
   background: rgba(0, 0, 0, 0.1);
 }
