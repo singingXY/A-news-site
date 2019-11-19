@@ -61,6 +61,9 @@ a:hover {
 .side-bar-card .card-body .list .list-item {
   padding: 10px 15px;
 }
+.side-bar-card .card-body .list .list-item {
+  margin: 0 10px;
+}
 .side-bar-card .card-body .list .list-item:hover {
   background: rgba(0, 0, 0, 0.1);
 }
