@@ -11,25 +11,28 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default ">
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="#">
           Brand
         </a>
       </div>
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">首页</a></li>
-        <li><a href="#">国内</a></li>
-        <li><a href="#">国际</a></li>
-        <li><a href="#">数读</a></li>
-        <li><a href="#">社会</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="login.html">登录</a></li>
-        <li class="active"><a href="signup.html">注册</a></li>
-      </ul>
-
+      <label class="toggle-label visible-xs-inline-block" for="toggle-checkbox">MENU</label>
+      <input class="hidden" type="checkbox" name="" id="toggle-checkbox">
+      <div class="hidden-xs">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">首页</a></li>
+          <li><a href="#">国内</a></li>
+          <li><a href="#">国际</a></li>
+          <li><a href="#">数读</a></li>
+          <li><a href="#">社会</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="login.html">登录</a></li>
+          <li><a href="signup.html">注册</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
   <div class="container container-small">
