@@ -116,3 +116,17 @@ img,
   text-align: center;
   color: #999;
 }
+
+.container-small {
+  max-width: 500px;
+}
+
+.btn-primary {
+  background: #ea0c3c;
+  border-color: #c02;
+}
+.btn-primary:hover,
+.btn-primary:active {
+  background: #c02;
+  border-color: #c02;
+}
